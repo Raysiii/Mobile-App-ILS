@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12953F"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Displayusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Hello, User!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/Expensesthismonth"
+        android:layout_width="388dp"
+        android:layout_height="137dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangletwo"
+        android:fontFamily="@font/inter_bold"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:text="Expenses this month"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/transactionsbelow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingLeft="20dp"
+        android:text="Transactions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/BTNinMAININTERFACE"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_btn"
+        android:text="CREATE"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+    android:layout_marginTop="350dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12953F"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/perangpunobs" />
+
+    <TextView
+        android:id="@+id/welcometoGETRICH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center"
+        android:text="Welcome to Get rich!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+
+        />
+
+    <TextView
+        android:id="@+id/Getrichdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Get rich! is an app that can monitor your expenses. Knowing where your money goes, spend less, save more."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/NAMEinWELCOME"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_edt"
+        android:gravity="center"
+        android:hint="What should we call you?"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="25dp"
+
+        />
+
+    <Button
+        android:id="@+id/BTNinWELCOME"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Get started"
+        android:textSize="25dp"
+        android:background="@drawable/custom_btn"
+        android:textColor="@color/white"
+
+
+        />
+
+</LinearLayout>
+
